@@ -5,32 +5,32 @@
 v0.6.4
 ======
 * Fix ``setup()`` function. (`@karelv`_)
-  `#176 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/176>`_.
+  `#176 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/176>`_.
 
 v0.6.3
 ======
 * Declare supported Python versions. (`@troeger`_)
-  `#175 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/175>`_.
+  `#175 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/175>`_.
 
 v0.6.2
 ======
 * Add theme ``setup()`` function. (`@karelv`_)
-  `#172 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/172>`_.
+  `#172 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/172>`_.
 
 v0.6.1
 ======
 * Fix headerlink margin. (`@timhoffm`_)
-  `#170 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/170>`_.
+  `#170 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/170>`_.
 
 v0.6.0
 ======
 * Upgrade to Bootstrap / Bootswatch v3.3.7. (`@svenevs`_)
-  `#164 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/164>`_.
+  `#164 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/164>`_.
 
 v0.5.3
 ======
 * Fix sidebar jQuery issue with height. (`@Sheile`_)
-  `#157 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/157>`_.
+  `#157 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/157>`_.
 
 v0.5.2
 ======
@@ -44,36 +44,36 @@ v0.5.1
 v0.5.0
 ======
 * Fix ``css_files`` breakage from Sphinx ``1.6+`` update.
-  `#158 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/158>`_,
-  `#160 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/160>`_.
+  `#158 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/158>`_,
+  `#160 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/160>`_.
 
 * **Breaking Change**: Remove ``bootswatch_css_custom`` override, and instead opt for documenting idiomatic Sphinx-version specific generic overrides for custom CSS.
 
 v0.4.14
 =======
 * Fix visibiliy of multiple footnote references. (`@drewhutchison`_)
-  `#152 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/152>`_.
+  `#152 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/152>`_.
 
 v0.4.13
 =======
 * Fix search with larger sidebar. (`@cemsbr`_)
-  `#148 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/148>`_.
+  `#148 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/148>`_.
 
 v0.4.12
 =======
 * Fix typo in theme CSS rule. (`@vkoby`_)
-  `#144 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/144>`_.
+  `#144 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/144>`_.
 
 v0.4.11
 =======
 * Fix logo sizing issue on mobile with RTD.
-  `#142 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/142>`_.
+  `#142 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/142>`_.
 
 
 v0.4.10
 =======
 * Fix logo / brand title wrapping bug. (`@miketheman`_)
-  `#141 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/141>`_.
+  `#141 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/141>`_.
 
 v0.4.9
 ======
@@ -82,12 +82,12 @@ v0.4.9
 v0.4.8
 ======
 * Fix sidenav overflow / scrolling.
-  `#136 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/136>`_.
+  `#136 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/136>`_.
 
 v0.4.7
 ======
 * Fix jumpy sidenav
-  `#131 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/131>`_.
+  `#131 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/131>`_.
   (`@cslarsen`_)
 
 v0.4.6
@@ -103,19 +103,19 @@ v0.4.5
   icons so we can catch errors like this better in the future.
 * Fix CSS generation with ``'navbar_fixed_top': "false"`` and
   ``'bootstrap_version': "2"``.
-  Fixes `#121 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/121>`_.
+  Fixes `#121 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/121>`_.
   (`@EricFromCanada`_)
 
 v0.4.4
 ======
 * Reset ``.container`` padding after Sphinx 1.3b commit overrode CSS.
-  Fixes `#114 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/114>`_.
+  Fixes `#114 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/114>`_.
   (`@EricFromCanada`_)
 * Fix situation where Python 3 + modern Sphinx results in empty strings being
   interpreted as a non-existent Bootswatch theme for
   ``theme_bootswatch_theme`` by permissively allowing old (empty quotes) or
   new (empty or ``None``) styles.
-  Fixes `#115 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/115>`_.
+  Fixes `#115 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/115>`_.
   (`@EricFromCanada`_, `@peteut`_, `@mdboom`_)
 
 v0.4.3
@@ -160,7 +160,7 @@ v0.3.6
 v0.3.5
 ======
 * Adds navbar logo's back to BS3. Switch to actual ``<img>`` tags for logos.
-  Fixes `#52 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/52>`_.
+  Fixes `#52 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/52>`_.
 * Fix responsive Bootswatch for Bootstrap v2.
 
 v0.3.4
@@ -172,9 +172,9 @@ v0.3.4
 v0.3.3
 ======
 * Allow custom CSS overrides, even on Bootstrap CSS.
-  Completes `#68 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/68>`_.
+  Completes `#68 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/68>`_.
 * Add offline bootswatch files.
-  Completes `#19 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/19>`_.
+  Completes `#19 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/19>`_.
 * Preserve HTML inside literal code blocks. (`@tristanlins`_)
 
 v0.3.2
@@ -205,11 +205,11 @@ v0.2.8
 v0.2.7
 ======
 * Add custom nav bar links. (`@russell`_)
-  Completes `#34 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/34>`_.
+  Completes `#34 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/34>`_.
 * Fix wrapping of line numbers in code includes. (`@russell`_)
-  Fixes `#35 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/35>`_.
+  Fixes `#35 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/35>`_.
 * Truncate long page titles in navigation bar. (`@aababilov`_)
-  Fixes `#27 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/issues/27>`_.
+  Fixes `#27 <https://github.com/ryan-roemer/kytos-sphinx-theme/issues/27>`_.
 
 v0.2.6
 ======

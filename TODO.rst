@@ -74,7 +74,7 @@ Updating Bootstrap
    ``(window.$jqTheme || window.jQuery)`` in files in the new
    ``bootstrap-VERSION/js`` directory.  See below.
 
-3. Update ``VERSION`` in ``sphinx_bootstrap_theme/bootstrap/layout.html``:
+3. Update ``VERSION`` in ``kytos_sphinx_theme/bootstrap/layout.html``:
 
    .. code-block:: jinja
 
@@ -86,7 +86,7 @@ Updating Bootstrap
         {% set bs_span_prefix = "span" %}
       {% endif %}
 
-4. Update ``VERSION`` in ``sphinx_bootstrap_theme/bootstrap/static/bootstrap-sphinx.css_t``
+4. Update ``VERSION`` in ``kytos_sphinx_theme/bootstrap/static/bootstrap-sphinx.css_t``
 
    .. code-block:: jinja
 
@@ -210,8 +210,8 @@ to the **same** version as Bootstrap!
           xargs tar -cf ~/Desktop/bootswatch-flat-3.3.7.tar
 
     # Now that we've extracted the relevant files, add them to the
-    # sphinx_bootstrap_theme repo
-    $ cd /path/to/sphinx-bootstrap-theme/sphinx_bootstrap_theme/bootstrap/static
+    # kytos_sphinx_theme repo
+    $ cd /path/to/sphinx-bootstrap-theme/kytos_sphinx_theme/bootstrap/static
 
     # Make the directory relevant to your bootswatch version and enter it;
     # the archive we made is not self-contained

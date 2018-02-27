@@ -10,8 +10,8 @@ and can use any number of different Bootswatch_ CSS themes.
 .. _Bootstrap: http://getbootstrap.com/
 .. _Sphinx: http://sphinx-doc.org/
 .. _theme: http://sphinx-doc.org/theming.html
-.. _PyPI: http://pypi.python.org/pypi/sphinx-bootstrap-theme/
-.. _GitHub repository: https://github.com/ryan-roemer/sphinx-bootstrap-theme
+.. _PyPI: http://pypi.python.org/pypi/kytos-sphinx-theme/
+.. _GitHub repository: https://github.com/ryan-roemer/kytos-sphinx-theme
 
 
 Introduction and Demos
@@ -19,10 +19,10 @@ Introduction and Demos
 The theme is introduced and discussed in the following posts:
 
 * 12/09/2011 - `Twitter Bootstrap Theme for Sphinx <http://loose-bits.com/2011/12/09/sphinx-twitter-bootstrap-theme.html>`_
-* 11/19/2012 - `Sphinx Bootstrap Theme Updates - Mobile, Dropdowns, and More <http://loose-bits.com/2012/11/19/sphinx-bootstrap-theme-updates.html>`_
-* 2/12/2013 - `Sphinx Bootstrap Theme 0.1.6 - Bootstrap and Other Updates <http://loose-bits.com/2013/02/12/sphinx-bootstrap-theme-updates.html>`_
-* 4/10/2013 - `Sphinx Bootstrap Theme 0.2.0 - Now with Bootswatch! <http://loose-bits.com/2013/04/10/sphinx-bootstrap-theme-bootswatch.html>`_
-* 9/8/2013 - `Sphinx Bootstrap Theme 0.3.0 - Bootstrap v3 and more! <http://loose-bits.com/2013/09/08/sphinx-bootstrap-theme-bootstrap-3.html>`_
+* 11/19/2012 - `Sphinx Bootstrap Theme Updates - Mobile, Dropdowns, and More <http://loose-bits.com/2012/11/19/kytos-sphinx-theme-updates.html>`_
+* 2/12/2013 - `Sphinx Bootstrap Theme 0.1.6 - Bootstrap and Other Updates <http://loose-bits.com/2013/02/12/kytos-sphinx-theme-updates.html>`_
+* 4/10/2013 - `Sphinx Bootstrap Theme 0.2.0 - Now with Bootswatch! <http://loose-bits.com/2013/04/10/kytos-sphinx-theme-bootswatch.html>`_
+* 9/8/2013 - `Sphinx Bootstrap Theme 0.3.0 - Bootstrap v3 and more! <http://loose-bits.com/2013/09/08/kytos-sphinx-theme-bootstrap-3.html>`_
 
 Examples of the theme in use for some public projects:
 
@@ -40,9 +40,9 @@ look at the `examples source`_ for the underlying reStructuredText).
 .. _United: http://bootswatch.com/united
 .. _Flatly: http://bootswatch.com/flatly
 .. _Sandstone: http://bootswatch.com/sandstone
-.. _Sphinx Bootstrap Theme: http://ryan-roemer.github.com/sphinx-bootstrap-theme
-.. _examples page: http://ryan-roemer.github.com/sphinx-bootstrap-theme/examples.html
-.. _examples source: http://ryan-roemer.github.com/sphinx-bootstrap-theme/_sources/examples.txt
+.. _Sphinx Bootstrap Theme: http://ryan-roemer.github.com/kytos-sphinx-theme
+.. _examples page: http://ryan-roemer.github.com/kytos-sphinx-theme/examples.html
+.. _examples source: http://ryan-roemer.github.com/kytos-sphinx-theme/_sources/examples.txt
 .. _Django Cloud Browser: http://ryan-roemer.github.com/django-cloud-browser
 .. _C++ Format: http://cppformat.readthedocs.org
 
@@ -53,18 +53,18 @@ Installation from PyPI_ is fairly straightforward:
 
 1. Install the package::
 
-      $ pip install sphinx_bootstrap_theme
+      $ pip install kytos_sphinx_theme
 
 2. Edit the "conf.py" configuration file to point to the bootstrap theme::
 
       # At the top.
-      import sphinx_bootstrap_theme
+      import kytos_sphinx_theme
 
       # ...
 
       # Activate the theme.
       html_theme = 'bootstrap'
-      html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+      html_theme_path = kytos_sphinx_theme.get_html_theme_path()
 
 
 Customization
@@ -239,7 +239,7 @@ configured as above, but with the following code::
 
 .. note::
 
-   See `Issue #159 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/159>`_
+   See `Issue #159 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/159>`_
    for more information.
 
 **Sphinx >= 1.6.1**
@@ -315,7 +315,7 @@ Sphinx Bootstrap Theme is licensed under the MIT_ license.
 
 `Bootstrap v3.1.0+`_ is licensed under the MIT license.
 
-.. _`MIT`: https://github.com/ryan-roemer/sphinx-bootstrap-theme/blob/master/LICENSE.txt
+.. _`MIT`: https://github.com/ryan-roemer/kytos-sphinx-theme/blob/master/LICENSE.txt
 .. _`Bootstrap v2`: https://github.com/twbs/bootstrap/blob/v2.3.2/LICENSE
 .. _`Bootstrap v3.1.0+`: https://github.com/twbs/bootstrap/blob/master/LICENSE
 

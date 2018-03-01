@@ -18,7 +18,7 @@
 
 {%- set render_sidebar = (not embedded) and (not theme_nosidebar|tobool) and sidebars %}
 
-{%- set bs_content_width = render_sidebar and "9" or "12"%}
+{%- set bs_content_width = render_sidebar and "6" or "12"%}
 
 {%- block doctype -%}
 <!DOCTYPE html>
@@ -32,25 +32,25 @@
 {% if theme_bootstrap_version == "3" %}
   {%- macro bsidebar() %}
       {%- if render_sidebar %}
-      <div class="{{ bs_span_prefix }}3">
+      <aside>
         <div id="sidebar" class="bs-sidenav" role="complementary">
           {%- for sidebartemplate in sidebars %}
             {%- include sidebartemplate %}
           {%- endfor %}
         </div>
-      </div>
+      </aside>
       {%- endif %}
   {%- endmacro %}
 {% else %}
   {%- macro bsidebar() %}
       {%- if render_sidebar %}
-      <div class="{{ bs_span_prefix }}3">
+      <aside>
         <div id="sidebar" class="bs-sidenav well" data-spy="affix">
           {%- for sidebartemplate in sidebars %}
             {%- include sidebartemplate %}
           {%- endfor %}
         </div>
-      </div>
+      </aside>
       {%- endif %}
   {%- endmacro %}
 {% endif %}

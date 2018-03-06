@@ -1,17 +1,17 @@
 ========================
- Sphinx Bootstrap Theme
+Kytos Sphinx Theme
 ========================
 
-This Sphinx_ theme_ integrates the Bootstrap_ CSS / JavaScript
-framework with various layout options, hierarchical menu navigation,
-and mobile-friendly responsive design. It is configurable, extensible,
-and can use any number of different Bootswatch_ CSS themes.
+This Sphinx_ theme_ is based in Sphinx Bootstrap Theme integrates
+the Bootstrap_ CSS / JavaScript framework with various layout options,
+hierarchical menu navigation, and mobile-friendly responsive design.
+It is configurable, extensible, and can use any number of different
+Bootswatch_ CSS themes.
 
 .. _Bootstrap: http://getbootstrap.com/
 .. _Sphinx: http://sphinx-doc.org/
 .. _theme: http://sphinx-doc.org/theming.html
-.. _PyPI: http://pypi.python.org/pypi/kytos-sphinx-theme/
-.. _GitHub repository: https://github.com/ryan-roemer/kytos-sphinx-theme
+.. _GitHub repository: https://github.com/kytos/documentation/kytos-sphinx-theme
 
 
 Introduction and Demos
@@ -40,7 +40,7 @@ look at the `examples source`_ for the underlying reStructuredText).
 .. _United: http://bootswatch.com/united
 .. _Flatly: http://bootswatch.com/flatly
 .. _Sandstone: http://bootswatch.com/sandstone
-.. _Sphinx Bootstrap Theme: http://ryan-roemer.github.com/kytos-sphinx-theme
+.. _Sphinx Bootstrap Theme: http://ryan-roemer.github.com/sphinx-bootstrap-theme
 .. _examples page: http://ryan-roemer.github.com/kytos-sphinx-theme/examples.html
 .. _examples source: http://ryan-roemer.github.com/kytos-sphinx-theme/_sources/examples.txt
 .. _Django Cloud Browser: http://ryan-roemer.github.com/django-cloud-browser
@@ -239,7 +239,7 @@ configured as above, but with the following code::
 
 .. note::
 
-   See `Issue #159 <https://github.com/ryan-roemer/kytos-sphinx-theme/pull/159>`_
+   See `Issue #159 <https://github.com/ryan-roemer/sphinx-bootstrap-theme/pull/159>`_
    for more information.
 
 **Sphinx >= 1.6.1**
